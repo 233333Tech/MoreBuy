@@ -59,14 +59,14 @@ public Action BuymenuCMD(int client , int args)
 	}
 	new Handle:menu = CreateMenu(buyHandler);
 	SetMenuTitle(menu, "拓展购买菜单");
-	AddMenuItem(menu, "1", "$1000", "防暴盾牌");
-	AddMenuItem(menu, "2", "$6000", "重型护甲");
-	AddMenuItem(menu, "3", "$650", "医疗针");
-	AddMenuItem(menu, "4", "$850", "遥控炸弹");
-	AddMenuItem(menu, "5", "$350", "战术探测手雷");
-	AddMenuItem(menu, "6", "$600", "弹射地雷");
-	AddMenuItem(menu, "7", "$700", "降落伞");
-	AddMenuItem(menu, "8", "$800", "外骨骼跳跃装置");
+	AddMenuItem(menu, "1", "$1000 防暴盾牌");
+	AddMenuItem(menu, "2", "$6000 重型护甲");
+	AddMenuItem(menu, "3", "$650 医疗针");
+	AddMenuItem(menu, "4", "$850 遥控炸弹");
+	AddMenuItem(menu, "5", "$350 战术探测手雷");
+	AddMenuItem(menu, "6", "$600 弹射地雷");
+	AddMenuItem(menu, "7", "$700 降落伞");
+	AddMenuItem(menu, "8", "$800 外骨骼跳跃装置");
 	AddMenuItem(menu, "9", "$400  夜视仪");
 	AddMenuItem(menu, "10", "花$1500再来个包！");
 	SetMenuExitButton(menu, true);
