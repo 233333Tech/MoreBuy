@@ -327,7 +327,7 @@ public Action BuyParachuteCMD(int client, int args)
 	}
 	
 	SetEntProp(client, Prop_Send, "m_iAccount", account - ParachuteCost);
-	GivePlayerItem(client, "weapon_bumpmine");
+	GivePlayerItem(client, "parachute");
 	
 	return Plugin_Handled;
 }
